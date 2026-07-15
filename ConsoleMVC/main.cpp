@@ -1,6 +1,6 @@
-﻿#include "Controller.h"
-#include "Model.h"
-#include "View.h"
+﻿#include "Controllers/Controller.h"
+#include "Models/Model.h"
+#include "Views/View.h"
 
 int main()
 {

@@ -1,7 +1,7 @@
 ﻿#pragma once
 
-#include "Model.h"
-#include "View.h"
+#include "../Models/Model.h"
+#include "../Views/View.h"
 
 // Controller: 사용자 입력을 해석해 Model을 조작하고, Model의 변경 결과를 View에 반영한다.
 class Controller

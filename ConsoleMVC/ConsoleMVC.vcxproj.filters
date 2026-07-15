@@ -13,27 +13,36 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Models">
+      <UniqueIdentifier>{a1b2c3d4-0001-4a2b-8c3d-4e5f60718293}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Views">
+      <UniqueIdentifier>{a1b2c3d4-0002-4a2b-8c3d-4e5f60718293}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controllers">
+      <UniqueIdentifier>{a1b2c3d4-0003-4a2b-8c3d-4e5f60718293}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Model.h">
-      <Filter>헤더 파일</Filter>
+    <ClInclude Include="Models\Model.h">
+      <Filter>Models</Filter>
     </ClInclude>
-    <ClInclude Include="View.h">
-      <Filter>헤더 파일</Filter>
+    <ClInclude Include="Views\View.h">
+      <Filter>Views</Filter>
     </ClInclude>
-    <ClInclude Include="Controller.h">
-      <Filter>헤더 파일</Filter>
+    <ClInclude Include="Controllers\Controller.h">
+      <Filter>Controllers</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Model.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="Models\Model.cpp">
+      <Filter>Models</Filter>
     </ClCompile>
-    <ClCompile Include="View.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="Views\View.cpp">
+      <Filter>Views</Filter>
     </ClCompile>
-    <ClCompile Include="Controller.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="Controllers\Controller.cpp">
+      <Filter>Controllers</Filter>
     </ClCompile>
     <ClCompile Include="main.cpp">
       <Filter>소스 파일</Filter>
